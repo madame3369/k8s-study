@@ -1,0 +1,16 @@
+#https://docs.docker.com/desktop/install/windows-install/
+##도커설치
+
+
+##미니큐브 설치
+#https://minikube.sigs.k8s.io/docs/start/
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+
+#minikube start --driver=docker=4
+
+#노드 추가하고싶을 때
+minikube node add 
+
+#생성 후 확인 명령어 
+minikube status
